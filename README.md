@@ -13,7 +13,7 @@ C:\> dir
 ABOUT    TXT       1 file
 TOOLS    TXT       1 file
 LINKS    TXT       1 file
-TROX         <DIR>
+KLYF         <DIR>
 TELETABLE    <DIR>
 SILLIES      <DIR>
 
@@ -23,10 +23,10 @@ C:\> type ABOUT.TXT
 I wrote a compiler so I'd have a new language to blame.
 
 
-C:\> cd TROX
-C:\TROX> type README.TXT
+C:\> cd KLYF
+C:\KLYF> type README.TXT
 
-TROX: own language + compiler            [C#, LLVM]
+KLYF: own language + compiler            [C#, LLVM]
 
   source --> lexer --> parser --> semantic (lazy) --+--> own back-end
                                                      +--> LLVM
@@ -36,7 +36,7 @@ TROX: own language + compiler            [C#, LLVM]
   Front-end ~85%, the rest in progress. Open source after v1.
 
 
-C:\TROX> cd ..\TELETABLE
+C:\KLYF> cd ..\TELETABLE
 C:\TELETABLE> type README.TXT
 
 TELETABLE: autonomous transport vehicle  [ESP32, Fusion 360]
