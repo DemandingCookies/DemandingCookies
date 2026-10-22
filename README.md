@@ -1,8 +1,8 @@
 ```
 ╔══════════════════════════════════════════════════════════════════╗
-║  GABRIEL MIRANDOLA                               SUEDTIROL, ITALY ║
+║  GABRIEL MIRANDOLA                              SUEDTIROL, ITALY ║
 ║  ──────────────────────────────────────────────────────────────  ║
-║  COMPILERS · LOW-LEVEL · EMBEDDED                    [ 1986 BAUD ] ║
+║  COMPILERS · LOW-LEVEL · EMBEDDED                  [ 1986 BAUD ] ║
 ╚══════════════════════════════════════════════════════════════════╝
 
 C:\> dir
