@@ -1,140 +1,72 @@
+```
 ╔══════════════════════════════════════════════════════════════════╗
-
-║  GABRIEL MIRANDOLA                              SUEDTIROL, ITALY ║
-
+║  GABRIEL MIRANDOLA                               SUEDTIROL, ITALY ║
 ║  ──────────────────────────────────────────────────────────────  ║
-
-║  COMPILERS · LOW-LEVEL · EMBEDDED                  \[ 1986 BAUD ] ║
-
+║  COMPILERS · LOW-LEVEL · EMBEDDED                    [ 1986 BAUD ] ║
 ╚══════════════════════════════════════════════════════════════════╝
 
+C:\> dir
 
-
-C:\\> dir
-
-
-
-&#x20;VOLUME IN DRIVE C IS GABRIEL
-
-&#x20;DIRECTORY OF C:\\
-
-
+ VOLUME IN DRIVE C IS GABRIEL
+ DIRECTORY OF C:\
 
 ABOUT    TXT       1 file
-
 TOOLS    TXT       1 file
-
 LINKS    TXT       1 file
-
 TROX         <DIR>
-
 TELETABLE    <DIR>
-
 SILLIES      <DIR>
 
 
-
-
-
-C:\\> type ABOUT.TXT
-
-
+C:\> type ABOUT.TXT
 
 I wrote a compiler so I'd have a new language to blame.
 
 
+C:\> cd TROX
+C:\TROX> type README.TXT
+
+TROX: own language + compiler            [C#, LLVM]
+
+  source --> lexer --> parser --> semantic (lazy) --+--> own back-end
+                                                     +--> LLVM
+
+  Lock-free, CAS-based compiler. Written in C#.
+  Will one day compile itself.
+  Front-end ~85%, the rest in progress. Open source after v1.
 
 
+C:\TROX> cd ..\TELETABLE
+C:\TELETABLE> type README.TXT
 
-C:\\> cd TROX
+TELETABLE: autonomous transport vehicle  [ESP32, Fusion 360]
 
-C:\\TROX> type README.TXT
+  A small autonomous vehicle that drives to where you tell it to.
+  Hardware, chassis and CAD by me.
 
-
-
-TROX: own language + compiler            \[C#, LLVM]
-
-
-
-&#x20; source --> lexer --> parser --> semantic (lazy) --+--> own back-end
-
-&#x20;                                                    +--> LLVM
+  github.com/TeleTable-StartUp-Lab
 
 
+C:\TELETABLE> cd ..\SILLIES
+C:\SILLIES> type README.TXT
 
-&#x20; Lock-free, CAS-based compiler. Written in C#.
+SILLIES: file compression app            [C#, C, x64 asm]
 
-&#x20; Will one day compile itself.
+  Compression, in three languages, one of them assembly.
 
-&#x20; Front-end \~85%, the rest in progress. Open source after v1.
-
-
-
-
-
-C:\\TROX> cd ..\\TELETABLE
-
-C:\\TELETABLE> type README.TXT
+  codeberg.org/RampantCat/Sillies
 
 
-
-TELETABLE: autonomous transport vehicle  \[ESP32, Fusion 360]
-
-
-
-&#x20; A small autonomous vehicle that drives to where you tell it to.
-
-&#x20; Hardware, chassis and CAD by me.
-
-
-
-&#x20; github.com/TeleTable-StartUp-Lab
-
-
-
-
-
-C:\\TELETABLE> cd ..\\SILLIES
-
-C:\\SILLIES> type README.TXT
-
-
-
-SILLIES: file compression app            \[C#, C, x64 asm]
-
-
-
-&#x20; Compression, in three languages, one of them assembly.
-
-
-
-&#x20; codeberg.org/RampantCat/Sillies
-
-
-
-
-
-C:\\SILLIES> cd ..
-
-C:\\> type TOOLS.TXT
-
-
+C:\SILLIES> cd ..
+C:\> type TOOLS.TXT
 
 C# · C · C++ · Java · x64 asm · LLVM · Linux · Docker · Git
 
 
-
-
-
-C:\\> type LINKS.TXT
-
-
+C:\> type LINKS.TXT
 
 gabrielmirandola.com
 
 
-
-
-
-C:\\> \_
-
+C:\> _
+```
