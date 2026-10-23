@@ -26,6 +26,7 @@ I wrote a compiler so I'd have a new language to blame.
 C:\> cd KLYF
 C:\KLYF> type README.TXT
 
+--- COMING SOON ---
 KLYF: own language + compiler            [C#, LLVM]
 
   source --> lexer --> parser --> semantic (lazy) --+--> own back-end
@@ -50,11 +51,12 @@ TELETABLE: autonomous transport vehicle  [ESP32, Fusion 360]
 C:\TELETABLE> cd ..\SILLIES
 C:\SILLIES> type README.TXT
 
-SILLIES: file compression app            [C#, C, x64 asm]
+SILLIES: Little explorations             [C#, C, x64 asm]
 
-  Compression, in three languages, one of them assembly.
-
-  codeberg.org/RampantCat/Sillies
+  - Compression, in three languages, one of them assembly
+  - Dish Managers, CLI and GUI
+  - File Removal Tool: Erase Duplicates
+  - Binary File Reader
 
 
 C:\SILLIES> cd ..
